@@ -5,7 +5,7 @@ const poem = `May I? I asked the mountain.
 Yes, said the mountain —
 and the yes came back as my own voice,
 louder than I had ever heard it.
-I had been the permission all along.`;
+The door was never locked — I was.`;
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", poem + "\n", "utf8");
